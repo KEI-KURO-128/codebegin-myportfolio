@@ -1,0 +1,411 @@
+/* リセットcss */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* リセットcss終了 */
+/* body{
+	background:#dcdcdc;
+} */
+.container{
+  background-color:#f5f5f5;
+  width:1200px;
+  margin:0 auto;
+  font-family: 'Amatic SC', cursive;
+}
+.header{
+	/* background:red; */
+}
+.h-title{
+	position: relative;
+}
+.header img{
+	width:100%;
+	height:auto;
+	text-align: center;
+	/* z-index: 0.5; */
+}
+/* ハンバーガーメニュー */
+.h-sp-menu #open{
+  position:absolute;
+  top:20px;
+  right:5%;
+  color:white;
+  font-size:40px;
+  border:1px solid white;
+  padding:5px;
+  cursor:pointer;
+}
+.h-sp-menu #open{
+  display: none;
+}
+.h-sp-menu #open.hide{
+  display:none;
+}
+.h-overlay{
+  position:fixed;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background-color:rgba(0,0,0,0.8);
+  opacity:0;
+  pointer-events: none;
+}
+.h-overlay.show{
+  opacity:1;
+  pointer-events:all;
+}
+.h-overlay #close{
+  position:absolute;
+  top:20px;
+  right:5%;
+  color:white;
+  font-size:40px;
+  border:1px solid white;
+  padding:5px;
+  cursor:pointer;
+}
+.h-ul2{
+  position:absolute;
+  top:30px;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -webkit-animastion:translate(-50%,
+  -50%);
+  -ms-transform:translate(-50%,-50%);
+
+}
+.h-li2{
+  /* border-bottom:1px solid white; */
+  text-align:center;
+  /* opacity:0;
+  transform:translateY(16px);
+  transition:opacity .3s,transform .3s;
+  padding:10px; */
+}
+/* .h-li2.show{
+  opacity:1;
+  transform:none;
+} */
+.h-h1{
+	position:absolute;
+	top:120px;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	color:white;
+	font-family: 'Amatic SC', cursive;
+	font-size:50px;
+}
+.h-ul{
+	display:flex;
+	position: absolute;
+	top:30px;
+	left:50%;
+	/* ナビバーの左右を対象にする */
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+.h-ul2{
+  margin-top:30%;
+}
+.h-list{
+	color:white;
+	font-family: 'Amatic SC', cursive;
+	font-size:20px;
+	margin-left:20px;
+}
+.h-list2{
+  color:white;
+	font-family: 'Amatic SC', cursive;
+  font-size:20px;
+  padding:10px;
+}
+.h-a{
+	text-decoration:none;
+	color:white;
+}
+.h-h1{
+	transition:.3s;
+	display:inline-block;
+}
+a {
+  transition: .3s;
+}
+.h-a span {
+  display: inline-block;
+}
+.h-a:hover span {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  transition: .6s;
+}
+.h-a:hover span:nth-of-type(1) {
+  -webkit-transition-delay: .02s;
+  transition-delay: .02s;
+}
+.h-a:hover span:nth-of-type(2) {
+  -webkit-transition-delay: .04s;
+  transition-delay: .04s;
+}
+.h-a:hover span:nth-of-type(3) {
+  -webkit-transition-delay: .06s;
+  transition-delay: .06s;
+}
+.h-a:hover span:nth-of-type(4) {
+  -webkit-transition-delay: .08s;
+  transition-delay: .08s;
+}
+.h-a:hover span:nth-of-type(5) {
+  -webkit-transition-delay: .10s;
+  transition-delay: .10s;
+}
+.h-a:hover span:nth-of-type(6) {
+  -webkit-transition-delay: .12s;
+  transition-delay: .12s;
+}
+.h-a:hover span:nth-of-type(7) {
+  -webkit-transition-delay: .14s;
+  transition-delay: .14s;
+}
+
+ ・
+ ・
+ ・
+.h-h1 span {
+  display: inline-block;
+}
+.h-h1:hover span {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  transition: .6s;
+}
+.h-a:hover span:nth-of-type(1) {
+  -webkit-transition-delay: .02s;
+  transition-delay: .02s;
+}
+.h-a:hover span:nth-of-type(2) {
+  -webkit-transition-delay: .04s;
+  transition-delay: .04s;
+}
+.h-a:hover span:nth-of-type(3) {
+  -webkit-transition-delay: .06s;
+  transition-delay: .06s;
+}
+.h-a:hover span:nth-of-type(4) {
+  -webkit-transition-delay: .08s;
+  transition-delay: .08s;
+}
+.h-a:hover span:nth-of-type(5) {
+  -webkit-transition-delay: .10s;
+  transition-delay: .10s;
+}
+.h-a:hover span:nth-of-type(6) {
+  -webkit-transition-delay: .12s;
+  transition-delay: .12s;
+}
+.h-a:hover span:nth-of-type(7) {
+  -webkit-transition-delay: .14s;
+  transition-delay: .14s;
+}
+.h-a:hover span:nth-of-type(8) {
+  -webkit-transition-delay:16s;
+  transition-delay: .16s;
+}
+.h-a:hover span:nth-of-type(9) {
+  -webkit-transition-delay: .18s;
+  transition-delay: .18s;
+}
+.h-a:hover span:nth-of-type(10) {
+  -webkit-transition-delay: .20s;
+  transition-delay: .20s;
+}
+.h-a:hover span:nth-of-type(11) {
+  -webkit-transition-delay: .22s;
+  transition-delay: .22s;
+}
+ ・
+ ・
+ ・
+.main{
+  /* background:blue; */
+  padding:50px 0;
+
+}
+.m-menu{
+}
+.m-h2{
+  font-size:20px;
+  text-align:center;
+  letter-spacing: 3px;
+  margin-bottom:20px;
+  margin-top:30px;
+  font-weight:bold;
+  /* padding:10px; */
+}
+.m-about-info{
+  display:flex;
+  justify-content:center;
+  margin:50px 0;
+}
+.m-icon-work{
+  display:flex;
+  justify-content:center;
+  margin:30px 0;
+}
+.m-about-img{
+  width:100px;
+  height:auto;
+  border-radius:50%;
+  margin-right:50px;
+}
+.m-p{
+  padding-top:8px;
+  line-height:1.5;
+  letter-spacing:2px;
+  font-family:"源ノ角ゴシック";
+}
+.m-p2{
+  font-size:15px;
+  line-height:normal;
+  letter-spacing:normal;
+  font-weight:normal;
+  padding-top:30px;
+  
+}
+.m-h3{
+  padding:0 10px;
+  /* width:20%; */
+}
+.m-service-info{
+  width:20%;
+  padding:2%;
+}
+.m-icon{
+  font-size:80px;
+  margin:0 30px;
+}
+.m-icon2{
+  font-size:50px;
+}
+.m-icon-top{
+  margin-bottom:10px;
+}
+.m-icon-bottom{
+  text-align:center;
+  color:black;
+  font-family: normal;
+  font-weight:bold;
+}
+.m-a{
+  color:black;
+}
+.m-listbox{
+  color:black;
+  letter-spacing:0.1em;
+}
+/* 今までの課題 */
+.m-work{
+  /* border:1px solid black; */
+  display:flex;
+  justify-content:center;
+  margin:0 auto;
+  width:50%;
+  /* text-align:ce
+  nter; */
+  margin-top:50px;
+}
+.m-work-info{
+  /* background-color:red; */
+  border:1px solid black;
+  padding:20px;
+  margin:10px;
+  width:50%;
+}
+.m-work-info:hover{
+  opacity:0.5;
+  box-shadow:0 5px 10px black;
+  transform:translate(0,-5px);
+}
+.m-work-img{
+  width:80%;
+  height:auto;
+}
+.m-h5{
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;;
+  color:black;
+  font-size:15px;
+  font-weight:normal;
+  padding-top:10px;
+}
+.m-work a{
+  text-decoration:none;
+
+}
+.m-p3{
+  font-size:15px;
+  font-weight:normal;
+  color:black;
+  padding:50px;
+  letter-spacing:0.1em;
+}
+.footer{
+  /* background:green; */
+  /* clear: both; */
+}
+.f-p{
+  font-size:12px;
+  text-align:center;
+  padding:30px;
+  font-family:normal;
+}
+.contact{
+  padding:5% 0;
+}

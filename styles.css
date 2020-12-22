@@ -1,0 +1,57 @@
+/* レスポンシブデザイン用 */
+@media screen and (max-width:620px){
+  body{
+    font-size:12px;
+  }
+  .container{
+    width:96%;
+    padding:0 2%;
+    margin:0 auto;
+  }
+  
+ .h-h1{
+   top:40px;
+   font-size:20px;
+
+ }
+ .h-ul{
+   display:none;
+ }
+ .h-sp-menu #open{
+   display:inline;
+ }
+ /* アバウト */
+ .m-about-img{
+  width:50px;
+  border-radius:50%;
+  margin-right:10px;
+  height:auto;
+ }
+ /* スキル */
+ .m-h3{
+   padding:0;
+ }
+ /* サービス */
+ .m-icon-work{
+  display:block;
+ }
+ .m-service-info{
+   width:90%;
+   padding:5%;
+ }
+ /* ワークス */
+ .m-work{
+   display:block;
+   /* padding:5% 0; */
+ }
+ .m-work-info{
+   width:80%;
+   padding:10%;
+   margin:20px 0;
+ }
+ /* コンタクト */
+ .m-p3{
+   padding:20px;
+ }
+ 
+}    
