@@ -4,8 +4,7 @@
     font-size:12px;
   }
   .container{
-    width:96%;
-    padding:0 2%;
+    width:100%;
     margin:0 auto;
   }
   
@@ -21,11 +20,19 @@
    display:inline;
  }
  /* アバウト */
+ .m-about-info{
+  display:block;
+  text-align:center;
+  
+ }
  .m-about-img{
-  width:50px;
+  width:80px;
   border-radius:50%;
   margin-right:10px;
   height:auto;
+ }
+ .m-about-info p{
+   font-weight:bold;
  }
  /* スキル */
  .m-h3{
@@ -53,5 +60,7 @@
  .m-p3{
    padding:20px;
  }
- 
+ .h-list{
+   margin:0;
+ }
 }    
