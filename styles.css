@@ -23,7 +23,6 @@
  .m-about-info{
   display:block;
   text-align:center;
-  
  }
  .m-about-img{
   width:80px;
@@ -31,8 +30,8 @@
   margin-right:10px;
   height:auto;
  }
- .m-about-info p{
-   font-weight:bold;
+ .m-about-info2{
+   display:flex;
  }
  /* スキル */
  .m-h3{
