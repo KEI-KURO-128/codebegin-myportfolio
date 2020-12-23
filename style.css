@@ -92,7 +92,7 @@ table {
   bottom:0;
   right:0;
   left:0;
-  background-color:rgba(0,0,0,0.8);
+  background-color:rgba(0,0,0,0.9);
   opacity:0;
   pointer-events: none;
 }
@@ -112,7 +112,7 @@ table {
 }
 .h-ul2{
   position:absolute;
-  top:30px;
+  top:10px;
   left:50%;
   transform:translate(-50%,-50%);
   -webkit-animastion:translate(-50%,
@@ -127,6 +127,9 @@ table {
   transform:translateY(16px);
   transition:opacity .3s,transform .3s;
   padding:10px; */
+  border-bottom:1px solid white;
+  padding:10px 5px 10px 10px;
+  padding-bottom:5px;
 }
 .h-li2:hover{
 
