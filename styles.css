@@ -30,8 +30,16 @@
   margin-right:10px;
   height:auto;
  }
+ /* マウスオーバー時 */
+.m-about-a:hover{
+  transform: translateY(5px);
+  cursor: pointer;
+}
  .m-about-info2{
    display:flex;
+ }
+ .m-about-p{
+   margin:0 20px;
  }
  /* スキル */
  .m-h3{
